@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+  </style>
+
+</head>
+{% include "exam/navbar.html" %}
+<body>
+
+  <br><br>
+  <div class="jumbotron" style="margin-bottom:0px;">
+    <br><br><br><br><br><br><br><br>
+    <h1 class="display-4">Hello Folks,</h1>
+    <p class="lead">and Welcome to Online Examination System</p>
+    <hr class="my-4">
+    <p>Select your identity to access into the system</p>
+    <p class="lead">
+      <a class="btn btn-primary" style="border-radius:0px;" href="../teacher/teachersignup" role="button">Teachers</a>&nbsp;&nbsp;&nbsp;
+      <a class="btn btn-primary " href="studentsignup" style="border-radius: 0%;" role="button">Students</a>
+    </p>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br>
+</body>
+{% include "exam/footer.html" %}
+</html>
